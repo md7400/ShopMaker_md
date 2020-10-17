@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMaker.Application", "ShopMaker.Core\ShopMaker.Application.csproj", "{3E52D250-A525-4740-B09F-FA3B3FCA7DA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMaker.Domain", "ShopMaker.Domain\ShopMaker.Domain.csproj", "{C71928D9-53C7-4F67-B740-122C673CBCC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMaker.Infrastructure.Data", "ShopMaker.Infrastructure.Data\ShopMaker.Infrastructure.Data.csproj", "{3C62DCC8-F6CB-4FF2-A2D3-70B3C4740BF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMaker.Infrastructure.IOC", "ShopMaker.Infrastructure.IOC\ShopMaker.Infrastructure.IOC.csproj", "{95B26244-AABA-40BE-8562-A516590631AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopMaker.Web", "ShopMaker.Web\ShopMaker.Web.csproj", "{DE9582FA-2790-40B7-83EB-A0A268842845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E52D250-A525-4740-B09F-FA3B3FCA7DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E52D250-A525-4740-B09F-FA3B3FCA7DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E52D250-A525-4740-B09F-FA3B3FCA7DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E52D250-A525-4740-B09F-FA3B3FCA7DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71928D9-53C7-4F67-B740-122C673CBCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71928D9-53C7-4F67-B740-122C673CBCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71928D9-53C7-4F67-B740-122C673CBCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71928D9-53C7-4F67-B740-122C673CBCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C62DCC8-F6CB-4FF2-A2D3-70B3C4740BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C62DCC8-F6CB-4FF2-A2D3-70B3C4740BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C62DCC8-F6CB-4FF2-A2D3-70B3C4740BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C62DCC8-F6CB-4FF2-A2D3-70B3C4740BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B26244-AABA-40BE-8562-A516590631AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B26244-AABA-40BE-8562-A516590631AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B26244-AABA-40BE-8562-A516590631AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B26244-AABA-40BE-8562-A516590631AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9582FA-2790-40B7-83EB-A0A268842845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9582FA-2790-40B7-83EB-A0A268842845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9582FA-2790-40B7-83EB-A0A268842845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9582FA-2790-40B7-83EB-A0A268842845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9D6CEC5-4E03-4D1B-BFE7-E1BDBE4D169B}
+	EndGlobalSection
+EndGlobal

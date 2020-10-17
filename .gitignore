@@ -1,0 +1,11 @@
+.vs
+ShopMaker.Core/bin
+ShopMaker.Core/obj
+ShopMaker.Domain/bin
+ShopMaker.Domain/obj
+ShopMaker.Infrastructure.Data/bin
+ShopMaker.Infrastructure.Data/obj
+ShopMaker.Infrastructure.IOC/bin
+ShopMaker.Infrastructure.IOC/obj
+ShopMaker.Web/bin
+ShopMaker.Web/obj
